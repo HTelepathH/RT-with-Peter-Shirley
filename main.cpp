@@ -300,6 +300,7 @@ int main()
     float dist_to_focus = 10.0;
     float aperture = 0.0;
     float vfov = 40.0;
+    
 /* 
     hitable* world = cornell_box();
     vec3 lookfrom(278, 278, -800);
