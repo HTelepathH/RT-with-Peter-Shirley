@@ -300,7 +300,7 @@ int main()
     float dist_to_focus = 10.0;
     float aperture = 0.0;
     float vfov = 40.0;
-    
+
 /* 
     hitable* world = cornell_box();
     vec3 lookfrom(278, 278, -800);
@@ -309,6 +309,7 @@ int main()
     float aperture = 0.0;
     float vfov = 40.0;
 */
+
     camera cam(lookfrom, lookat, vec3(0, 1, 0), vfov, float(nx) / float(ny), aperture, dist_to_focus, 0, 1);
 
     srand((unsigned)time(NULL));
