@@ -1,3 +1,4 @@
+//binary volume hierarchies tree
 #ifndef BVH_H
 #define BVH_H
 

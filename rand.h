@@ -1,3 +1,4 @@
+// generate random number
 #ifndef RAND_H 
 #define RAND_H
 
